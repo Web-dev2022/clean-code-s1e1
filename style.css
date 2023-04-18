@@ -18,7 +18,10 @@ body {
 }
 
 @media (max-width:768px) {
-  .add-item { text-align: center;
+
+  .add-item { 
+    text-align: center;
+    
 }
 }
 .centered-main-page-element {
