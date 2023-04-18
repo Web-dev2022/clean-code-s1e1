@@ -40,8 +40,7 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, 
-h3 {
+li {
   list-style: none;
 }
 input,
@@ -63,7 +62,7 @@ input,
 
 /* Heading */
 .task-title,
-.task-name[for='new-task'] {
+label[for='new-task'] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -89,7 +88,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.task-name[for='new-task'] {
+label[for='new-task'] {
   display: block;
   margin: 0 0 20px;
 }
@@ -112,7 +111,7 @@ input[type="text"]:focus {
 .task-item > input[type="checkbox"] {
   margin: 0 10px;
 }
-.task-item > .task-name {
+.task-item > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
