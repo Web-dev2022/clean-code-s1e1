@@ -16,7 +16,6 @@
 .add-item .more-inf {
   font-family: fantasy, cursive;
 }
-
 @media (max-width: 768px) {
 
   .add-item { 
@@ -61,9 +60,10 @@ input,
 .button:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
 .task-title,
-label[for='new-task'] {
+.task-name[for='new-task'] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -89,7 +89,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for='new-task'] {
+.task-name[for='new-task'] {
   display: block;
   margin: 0 0 20px;
 }
@@ -102,7 +102,6 @@ label[for='new-task'] {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -110,11 +109,10 @@ label[for='new-task'] {
 .task-item > * {
   vertical-align: middle;
 }
-
 .task-item > input[type="checkbox"] {
   margin: 0 10px;
 }
-.task-item > label {
+.task-item > .task-name {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -142,12 +140,10 @@ label[for='new-task'] {
 .task-item input[type=text] {
   display: none;
 }
-
 .edit-mode input[type=text] {
   display:inline-block;
   width: 224px;
 }
-
 .edit-mode label {
   display: none;
 }
